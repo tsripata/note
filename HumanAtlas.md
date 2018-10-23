@@ -7,22 +7,14 @@
 * To Start
   * `C:\Users\Toon\Anaconda3\python.exe C:\Users\Toon\Anaconda3\cwp.py C:\Users\Toon\Anaconda3 C:\Users\Toon\Anaconda3\python.exe C:\Users\Toon\Anaconda3\Scripts\jupyter-notebook-script.py`
   * Configration looks like this
-    ```
-    {
-
-  "NotebookApp": {
-
-    "password": "sha1:...",
-
+    ``` {
+     "NotebookApp": {
+      "password": "sha1:...",
 	"open_browser": false,
-
-    "port": 8000,
-
-    "ip": "*",
-
-    "notebook_dir": "E:\\HumanAtlas"
-
-  }
-
-   }
+        "port": 8000,
+         "ip": "*",
+         "notebook_dir": "E:\\HumanAtlas"
+	 "SSL..."
+         }
+     }
     ```
