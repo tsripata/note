@@ -18,3 +18,9 @@
          }
      }
     ```
+
+# Trying based on Inception V3
+* https://github.com/BartyzalRadek/Multi-label-Inception-net
+  * Create a script to convert png to jpg
+
+
