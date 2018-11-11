@@ -31,6 +31,9 @@
   * I had problem with nvidia docker.
     * Solve by https://github.com/nvidia/nvidia-container-runtime#docker-engine-setup
       * restart `service start/stop docker`
+  * Another problem when running jupyer notebook
+    * Need to regenerate config
+    * Then specify `127.0.0.1` address. `jupyter notebook --ip 127.0.0.1`
   * Use option that I build Docker File locally
   
 --
