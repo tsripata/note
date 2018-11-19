@@ -24,16 +24,14 @@
     ```
 --
 * Linux
-  * Use floydhub image `https://github.com/floydhub/dl-docker`
-    * Need to build the image manually
-    * Make sure docker daemon is running `service docker restart`
-    * Problem with building, solve by using `https://github.com/opencoca/dl-docker/commit/de9050f4376964eb039a93c47aade0db7bcf5f8f`
   * I had problem with nvidia docker.
     * Solve by https://github.com/nvidia/nvidia-container-runtime#docker-engine-setup
       * restart `service start/stop docker`
   * Another problem when running jupyer notebook
     * Need to regenerate config
     * Then specify `127.0.0.1` address. `jupyter notebook --ip 127.0.0.1`
-  * Use option that I build Docker File locally
-  
+  * Use option that I build Docker File locally.
+    * Dockerfile is at https://github.com/tsripata/toon_ml_machine
+    * Instruction to run is in the Github
+
 --
